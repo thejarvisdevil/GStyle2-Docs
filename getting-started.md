@@ -43,16 +43,16 @@ author = jarvisdevil
 Example:
 ```
 # This is a comment
-for (CreatorLayer) {
+for "CreatorLayer" {
     log.info "Hello, World!"
 }
 ```
   
 Then you can enable the pack using the GStyle2 menu and it should work!
 
-### Undestanding for()
+### Undestanding for
 
-**A for() defines what should be executed on what layer which is useful for those who want stuff on different menus or places in Geometry Dash.**  
+**A for defines what should be executed on what layer which is useful for those who want stuff on different menus or places in Geometry Dash.**  
   
 You can find what layer you are in by opening DevTools and looking at the first thing you see under tree. When you launch the game for example, going stright into DevTools reveals you are under MenuLayer.  
   

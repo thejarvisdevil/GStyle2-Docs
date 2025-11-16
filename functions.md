@@ -10,12 +10,12 @@ text.create "Pack: <::pack.info.name::>" 1.0 10 10 Roboto titletext
 # The arguments for text.create being [text, scale, x, y, font, id]
 ```
   
-You can also use expressions inside functions.  
-**Example:** `<::display.width:: / 2>` = Gets the center of the screen width so you can place stuff there.  
+You can also use expressions inside functions **(IMPORTANT: You need to have spaces around the expression)**.  
+**Example:** `< ::display.width:: / 2 >` = Gets the center of the screen width so you can place stuff there.  
   
 **Full Example:**
 ```
-text.create "Hello from <::pack.info.name::>" 1.0 <::display.width:: / 2> <::display.height:: / 2> bigFont hellotext
+text.create "Hello from <::pack.info.name::>" 1.0 < ::display.width:: / 2 > < ::display.height:: / 2 > bigFont hellotext
 ```
 
 ## List of functions
