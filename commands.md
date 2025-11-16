@@ -11,7 +11,7 @@ Commands are what you use to display stuff on screen, move things around and wha
 
 **But also some more important stuff:**
 - Node ID's are strings that should be given to stuff you create on screen. It can be used to change properties of a node **(which is something that is on screen, most nodes have an ID assigned)** such as it's position, size, color, etc.
-- When you create a node using GStyle2, the Node ID you assign it will be transformed into `authorName-packName-cleanedID` **(ex: `jarvisdevil-test_pack-my_actual_node_id`)** to make sure it doesn't conflict with other things. **(cleanedID is your node ID but lowercase and spaces are replaced with underscores)**
+- When you create a node using GStyle2, the Node ID you assign it will be transformed into `authorName-packID-cleanedID` **(ex: `jarvisdevil-jarvisdevil.test_pack-my_actual_node_id`)** to make sure it doesn't conflict with other things. **(cleanedID is your node ID but lowercase and spaces are replaced with underscores)**
 - List of fonts you can choose from are: bigFont, ArchivoBlack, BitcountGridDouble, BitTrip, Oswald, Roboto, ZalandoSansExpanded. **(bigFont is Pusab)**
 - **If you have read all of the documentation here and still don't understand anything about how to create a GStyle2 pack then why are you even trying?**
 
