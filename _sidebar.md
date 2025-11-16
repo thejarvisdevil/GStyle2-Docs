@@ -1,0 +1,5 @@
+* [Home](/)
+* [Getting Started](getting-started.md)
+* [Commands](commands.md)
+* [Functions](functions.md)
+* [Submitting a Pack](submitting.md)
