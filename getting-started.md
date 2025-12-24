@@ -14,7 +14,10 @@ main.gstyle2 - The actual script file that will be executed when the pack is loa
 banner.png - The banner that will be shown in the GStyle2 menu.
 info.txt - Information of the pack.
 ```
-**If you are going to run audio or sprite creation related commands, you will need to create two folders inside your pack: `audio` and `sprites`. Make sure to use MP3 for Audio and PNG, WebP or GIF for Sprites then put what you want in those folders.**
+**If you are going to run audio or sprite creation related commands, you will need to create two folders inside your pack: `audio` and `sprites`. Make sure to use MP3 for Audio and PNG, WebP or GIF for Sprites then put what you want in those folders.**  
+  
+**If you are trying to include your own custom resources (a texture pack), create a folder by the name of `textures` and drop in your files.  
+(ex: Menu Theme -> `menuLoop.mp3`)**
 
 ## The banner.png File
 
@@ -72,5 +75,6 @@ EditorOptionsLayer, GJPathsLayer, MoreSearchLayer, LevelCell
 (if you want to add something to somewhere and we are missing something, let me know. i'll be happy to add support for it!)
 
 ### Understanding Comments
+
 
 **Comments are lines that start with `#` and are ignored by the executor, this way you can add notes or anything you want to your script.**
